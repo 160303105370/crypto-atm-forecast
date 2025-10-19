@@ -1,0 +1,61 @@
+# --- Python & Virtual Env ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+.DS_Store
+
+# --- Jupyter Notebooks Checkpoints ---
+.ipynb_checkpoints/
+
+# --- AWS & Credentials ---
+*.pem
+*.key
+*.json
+aws_credentials*
+*.csv.aws
+*.secrets
+
+# --- Logs & Temp Files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.idea/
+*.vscode/
+
+# --- Data (raw & intermediate) ---
+data/data_raw/
+data/raw/
+data_raw/
+data/atm_transactions.csv
+data/btcusd_1-min_data.csv
+data/data_raw/*.csv
+
+# Keep processed sample data only
+!data/data_processed/
+!data/data_processed/loads/
+!data/data_processed/atm_crypto_merged_daily_sample.csv
+
+# --- Power BI autosaves / temp ---
+~$*
+*.tmp.pbix
+
+# --- Local screenshots / exports ---
+screenshots/
+__MACOSX/
+
+# --- OS Files ---
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Not needed build artifacts ---
+dist/
+build/
+*.egg
+*.manifest
+*.spec

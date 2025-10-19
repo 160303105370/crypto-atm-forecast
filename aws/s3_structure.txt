@@ -1,0 +1,18 @@
+AWS S3 Bucket Structure
+
+├── raw/
+│   ├── atm_raw.csv
+│   └── btc_raw.csv
+│
+├── processed/
+│   ├── atm_crypto_merged_daily.csv
+│   ├── atm_crypto_merged_daily_sample.csv
+│   └── loads/
+│       ├── atm_forecast_2020-01-01.csv
+│       ├── atm_forecast_2020-01-02.csv
+│       └── ...
+│
+└── analytics/
+    └── model_outputs/
+        ├── validation_predictions.csv
+        └── feature_importance.csv

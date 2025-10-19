@@ -90,32 +90,6 @@ This simulates a **daily feed** scenario in production.
 ---
 
 
-## 📂 Repository Structure
-
-
-crypto-atm-forecasting/
-│
-├── README.md
-├── notebooks/
-│ └── modeling_notebook.ipynb
-├── etl/
-│ └── daily_load.py
-├── data/
-│ ├── processed/
-│   └── atm_crypto_merged_daily_sample.csv
-├── aws/
-│ ├── redshift_schema.sql
-│ ├── iam_policy_example.json
-│ └── s3_structure.txt
-├── dashboard/
-│ ├── powerbi_screenshots/
-│ │ ├── dashboard_overview.png
-│ ├── crypto_atm_dashboard.pptx
-└── requirements.txt
-
-
----
-
 ## 🧾 Data Sources
 
 **ATM Transactions Dataset (Kaggle)**  
@@ -139,5 +113,3 @@ data/raw/btc_raw.csv
 ```bash
 python etl/daily_load.py
 
-
-## Results & Impact

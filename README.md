@@ -55,7 +55,7 @@ To forecast daily cash withdrawals across crypto ATMs and help operations teams 
 | Model | RMSE | MAPE | Accuracy | Notes |
 |--------|------|------|----------|--------|
 | **Random Forest Regressor** | 3,414 | 6.49 % | Best performer |
-| **XGBoost** | 3,733 | 7.01 % | Slightly lower accuracy |
+| **XGBoost** | 3,733 | 7.01 % | Slightly lower RMSE |
 
 **Key Predictors:**  
 - Yesterday’s withdrawals (`wd_lag_1`)  
